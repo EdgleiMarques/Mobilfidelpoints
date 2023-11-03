@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, SafeAreaView, StyleSheet } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 
 import { Card } from 'react-native-paper';
 
@@ -7,7 +8,7 @@ import { Card } from 'react-native-paper';
 export default function First() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Vamos lá testando a nossa aplicação!!!</Text>
       <StatusBar style="auto" />
     </View>
     
